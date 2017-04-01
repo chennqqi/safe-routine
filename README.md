@@ -2,7 +2,14 @@
 Prevent the whole go program crashed by a go routine
 
 ## Usage
+    package main
 
+    import (
+        "fmt"
+        "time"
+        "github.com/williamylian/safe-routine"
+    )
+    
     func main() {
         foo := "foo"
 
